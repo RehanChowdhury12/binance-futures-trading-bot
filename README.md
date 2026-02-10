@@ -26,7 +26,6 @@ trading_bot/
 ├── cli.py                   # CLI entry point
 ├── requirements.txt         # Python dependencies
 ├── .env.example            # Environment variables template
-├── .gitignore              # Git ignore rules
 └── README.md               # This file
 ```
 

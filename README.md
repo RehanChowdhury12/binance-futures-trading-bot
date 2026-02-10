@@ -1,6 +1,6 @@
 # Binance Futures Testnet Trading Bot
 
-A professional Python trading bot for placing orders on Binance Futures Testnet (USDT-M). This application provides a clean, well-structured CLI interface with comprehensive logging and error handling.
+A Python trading bot for placing orders on Binance Futures Testnet (USDT-M). This application provides a clean, well-structured CLI interface with comprehensive logging and error handling.
 
 ## Features
 

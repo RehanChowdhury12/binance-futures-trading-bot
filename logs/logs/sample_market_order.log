@@ -1,0 +1,36 @@
+2026-03-01 10:15:30 - trading_bot - INFO - Logging initialized. Log file: logs/trading_bot_20260301_101530.log
+2026-03-01 10:15:30 - trading_bot - INFO - Binance Testnet client initialized
+2026-03-01 10:15:31 - trading_bot - INFO - Testing API connection...
+2026-03-01 10:15:32 - trading_bot - INFO - API connection successful
+2026-03-01 10:15:32 - trading_bot - INFO - OrderManager initialized
+2026-03-01 10:15:32 - trading_bot - INFO - Validating order parameters...
+2026-03-01 10:15:32 - trading_bot - DEBUG - Fetching symbol info for BTCUSDT
+2026-03-01 10:15:32 - trading_bot - DEBUG - Symbol info retrieved: {'symbol': 'BTCUSDT', 'status': 'TRADING', 'baseAsset': 'BTC', 'quoteAsset': 'USDT'}
+2026-03-01 10:15:32 - trading_bot - INFO - Order validated: MARKET BUY 0.001 BTCUSDT
+2026-03-01 10:15:32 - trading_bot - INFO - ============================================================
+2026-03-01 10:15:32 - trading_bot - INFO - MARKET ORDER REQUEST
+2026-03-01 10:15:32 - trading_bot - INFO - ============================================================
+2026-03-01 10:15:32 - trading_bot - INFO - Symbol:   BTCUSDT
+2026-03-01 10:15:32 - trading_bot - INFO - Side:     BUY
+2026-03-01 10:15:32 - trading_bot - INFO - Quantity: 0.001
+2026-03-01 10:15:32 - trading_bot - INFO - ============================================================
+2026-03-01 10:15:32 - trading_bot - INFO - Placing MARKET order: BUY 0.001 BTCUSDT
+2026-03-01 10:15:32 - trading_bot - DEBUG - Order parameters: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'timestamp': 1772350532567}
+2026-03-01 10:15:33 - trading_bot - INFO - Market order placed successfully. Order ID: 123456789
+2026-03-01 10:15:33 - trading_bot - DEBUG - Full order response: {'orderId': 123456789, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'testOrder123', 'price': '0', 'avgPrice': '51234.50', 'origQty': '0.001', 'executedQty': '0.001', 'cumQty': '0.001', 'cumQuote': '51.23450', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': 1772350533000}
+2026-03-01 10:15:33 - trading_bot - INFO - ============================================================
+2026-03-01 10:15:33 - trading_bot - INFO - ORDER RESPONSE
+2026-03-01 10:15:33 - trading_bot - INFO - ============================================================
+2026-03-01 10:15:33 - trading_bot - INFO - Order ID:       123456789
+2026-03-01 10:15:33 - trading_bot - INFO - Client Order ID: testOrder123
+2026-03-01 10:15:33 - trading_bot - INFO - Symbol:         BTCUSDT
+2026-03-01 10:15:33 - trading_bot - INFO - Status:         FILLED
+2026-03-01 10:15:33 - trading_bot - INFO - Type:           MARKET
+2026-03-01 10:15:33 - trading_bot - INFO - Side:           BUY
+2026-03-01 10:15:33 - trading_bot - INFO - Price:          0
+2026-03-01 10:15:33 - trading_bot - INFO - Original Qty:   0.001
+2026-03-01 10:15:33 - trading_bot - INFO - Executed Qty:   0.001
+2026-03-01 10:15:33 - trading_bot - INFO - Average Price:  51234.50
+2026-03-01 10:15:33 - trading_bot - INFO - Time in Force:  GTC
+2026-03-01 10:15:33 - trading_bot - INFO - Update Time:    1772350533000
+2026-03-01 10:15:33 - trading_bot - INFO - ============================================================
